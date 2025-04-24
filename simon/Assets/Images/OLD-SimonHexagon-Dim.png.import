@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfavnxpoaoyg"
-path="res://.godot/imported/SimonHexagon.png-1bb2c0cbe8fc1f11d718f042d194c1a9.ctex"
+uid="uid://b10nbqir0y68w"
+path="res://.godot/imported/OLD-SimonHexagon-Dim.png-fd566725c379cb11b88474d0d2dfaa74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/SimonHexagon.png"
-dest_files=["res://.godot/imported/SimonHexagon.png-1bb2c0cbe8fc1f11d718f042d194c1a9.ctex"]
+source_file="res://Assets/Images/OLD-SimonHexagon-Dim.png"
+dest_files=["res://.godot/imported/OLD-SimonHexagon-Dim.png-fd566725c379cb11b88474d0d2dfaa74.ctex"]
 
 [params]
 

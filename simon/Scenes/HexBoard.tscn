@@ -1,20 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://yn1d5or0rw1x"]
+[gd_scene load_steps=5 format=3 uid="uid://yn1d5or0rw1x"]
 
-[ext_resource type="Script" path="res://Scripts/board.gd" id="1_2ukb6"]
-[ext_resource type="Script" path="res://Scripts/area.gd" id="2_82xq0"]
+[ext_resource type="Script" uid="uid://dmsljr82g63y5" path="res://Scripts/board.gd" id="1_2ukb6"]
+[ext_resource type="Script" uid="uid://cva6no74swapm" path="res://Scripts/area.gd" id="2_82xq0"]
 [ext_resource type="Texture2D" uid="uid://g6t0tskp2ahh" path="res://Assets/Images/SimonHexBoard.png" id="3_6y4hp"]
-[ext_resource type="Texture2D" uid="uid://b10nbqir0y68w" path="res://Assets/Images/SimonHexagon-Dim.png" id="5_0dx74"]
 [ext_resource type="Theme" uid="uid://bcj8x1t4qdn5o" path="res://Assets/board_area_theme.tres" id="5_2c8px"]
 
 [node name="HexBoard" type="Node2D"]
 top_level = true
 script = ExtResource("1_2ukb6")
 
-[node name="PlaceholderArt" type="Sprite2D" parent="."]
-visible = false
-texture = ExtResource("5_0dx74")
-
 [node name="BoardSprite" type="Sprite2D" parent="."]
+texture_filter = 1
 texture = ExtResource("3_6y4hp")
 
 [node name="Area_1" type="Area2D" parent="BoardSprite"]
@@ -30,6 +26,7 @@ color = Color(0.4, 0, 0, 1)
 polygon = PackedVector2Array(-45, 34, 1, -47, 47, 34)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_1"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -60,6 +57,7 @@ color = Color(0.4, 0.4, 0, 1)
 polygon = PackedVector2Array(-46.0001, 29.9999, 0.000129294, -51, 45.9999, 30.0001)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_2"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -90,6 +88,7 @@ color = Color(0, 0.4, 0, 1)
 polygon = PackedVector2Array(-47, 34, -1, -47, 45, 34)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_3"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -120,6 +119,7 @@ color = Color(0.321569, 0, 0.321569, 1)
 polygon = PackedVector2Array(-47.0001, 33.9999, -0.999882, -47, 44.9999, 34.0001)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_4"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -150,6 +150,7 @@ color = Color(0.0784314, 0.160784, 0.4, 1)
 polygon = PackedVector2Array(-46, 30, 0, -51, 46, 30)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_5"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -180,6 +181,7 @@ color = Color(0.4, 0.239216, 0, 1)
 polygon = PackedVector2Array(-45.0001, 33.9999, 1.00012, -47, 46.9999, 34.0001)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_6"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -196,11 +198,6 @@ theme = ExtResource("5_2c8px")
 text = "6"
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[node name="Light" type="Polygon2D" parent="."]
-show_behind_parent = true
-color = Color(0.0784314, 0.0784314, 0.0784314, 1)
-polygon = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
 
 [connection signal="mouse_entered" from="BoardSprite/Area_1" to="BoardSprite/Area_1" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="BoardSprite/Area_1" to="BoardSprite/Area_1" method="_on_mouse_exited"]

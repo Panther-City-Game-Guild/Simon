@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b10nbqir0y68w"
-path="res://.godot/imported/SimonHexagon-Dim.png-f2a89f1c29354717cebc280bad6ef6fa.ctex"
+uid="uid://dlnfv0nutb3na"
+path="res://.godot/imported/Button-Hover-170x30.png-05b3860548848b319a53a27fca9023f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/SimonHexagon-Dim.png"
-dest_files=["res://.godot/imported/SimonHexagon-Dim.png-f2a89f1c29354717cebc280bad6ef6fa.ctex"]
+source_file="res://Assets/Images/Button-Hover-170x30.png"
+dest_files=["res://.godot/imported/Button-Hover-170x30.png-05b3860548848b319a53a27fca9023f8.ctex"]
 
 [params]
 

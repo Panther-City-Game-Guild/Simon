@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3ssoamxmlpnc"
-path="res://.godot/imported/Simon-Menu-Button-Disabled.png-403586e8c50d3acc38ffe69ae47300e5.ctex"
+uid="uid://c78hrt44st216"
+path="res://.godot/imported/Button-Base-170x30.png-6ecb47617c3ff733508306473d05a1b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Simon-Menu-Button-Disabled.png"
-dest_files=["res://.godot/imported/Simon-Menu-Button-Disabled.png-403586e8c50d3acc38ffe69ae47300e5.ctex"]
+source_file="res://Assets/Images/Button-Base-170x30.png"
+dest_files=["res://.godot/imported/Button-Base-170x30.png-6ecb47617c3ff733508306473d05a1b5.ctex"]
 
 [params]
 

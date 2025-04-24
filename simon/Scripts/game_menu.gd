@@ -1,18 +1,11 @@
 extends Panel
 
-var LogoBoard: CompressedTexture2D = load("res://Assets/Images/SimonHexboard.png")
 @onready var NameBoard := $Container/Sprite2D
 @onready var resumeBtn := $Container/MenuContainer/ResumeBtn
 @onready var newBtn := $Container/MenuContainer/NewBtn
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var img: Image = LogoBoard.get_image()
-	img.resize(32, 32)
-	var texture: ImageTexture = ImageTexture.create_from_image(img)
-	NameBoard.texture = texture
-	
 	newBtn.grab_focus()
 
 
