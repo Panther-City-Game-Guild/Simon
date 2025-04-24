@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://dv5ce46e4gdq7"]
+[gd_scene load_steps=12 format=3 uid="uid://dv5ce46e4gdq7"]
 
 [ext_resource type="FontFile" uid="uid://dpp84wuchugmh" path="res://Assets/Fonts/mago3.ttf" id="1_0crqe"]
-[ext_resource type="Script" path="res://Scripts/game_menu.gd" id="1_7oi58"]
-[ext_resource type="Texture2D" uid="uid://c70umxwdsm5bm" path="res://Assets/Images/Simon-Menu-Button.png" id="2_ehgel"]
-[ext_resource type="Texture2D" uid="uid://bkwyx2dd8qcja" path="res://Assets/Images/Simon-Menu-Button-Hover.png" id="3_0crqe"]
-[ext_resource type="Texture2D" uid="uid://d3ssoamxmlpnc" path="res://Assets/Images/Simon-Menu-Button-Disabled.png" id="5_pxdf2"]
+[ext_resource type="Script" uid="uid://l5e0jm8t740s" path="res://Scripts/game_menu.gd" id="1_7oi58"]
+[ext_resource type="Texture2D" uid="uid://c78hrt44st216" path="res://Assets/Images/Button-Base-170x30.png" id="3_5iivx"]
+[ext_resource type="Texture2D" uid="uid://4rg75fj0voi0" path="res://Assets/Images/SimonHexBoardDim.png" id="3_ptjl2"]
+[ext_resource type="Texture2D" uid="uid://dlnfv0nutb3na" path="res://Assets/Images/Button-Hover-170x30.png" id="4_ptjl2"]
+[ext_resource type="Texture2D" uid="uid://ux46stthngey" path="res://Assets/Images/Button-Disabled-170x30.png" id="5_fv87u"]
 
 [sub_resource type="Theme" id="Theme_pxdf2"]
 default_font = ExtResource("1_0crqe")
@@ -13,7 +14,7 @@ default_font = ExtResource("1_0crqe")
 bg_color = Color(0.0784314, 0.0784314, 0.0784314, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_f0vws"]
-font_size = 80
+font_size = 96
 
 [sub_resource type="LabelSettings" id="LabelSettings_m1f3t"]
 font_size = 32
@@ -24,6 +25,7 @@ font_color = Color(0, 0.4, 0, 1)
 
 [node name="GameMenu" type="Panel"]
 process_mode = 3
+texture_filter = 1
 offset_right = 640.0
 offset_bottom = 360.0
 size_flags_horizontal = 4
@@ -51,6 +53,7 @@ size_flags_vertical = 4
 [node name="NameContainer" type="HBoxContainer" parent="Container/TitleContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
+theme_override_constants/separation = 0
 alignment = 1
 
 [node name="Sim" type="Label" parent="Container/TitleContainer/NameContainer"]
@@ -60,7 +63,7 @@ label_settings = SubResource("LabelSettings_f0vws")
 horizontal_alignment = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="Container/TitleContainer/NameContainer"]
-custom_minimum_size = Vector2(30, 32)
+custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_constants/margin_bottom = 8
@@ -73,18 +76,21 @@ horizontal_alignment = 1
 
 [node name="CommLabel" type="Label" parent="Container/TitleContainer"]
 layout_mode = 2
-text = "Color Patterns 101"
+text = "Color-Pattern"
 label_settings = SubResource("LabelSettings_m1f3t")
 horizontal_alignment = 1
 
 [node name="CommLabel2" type="Label" parent="Container/TitleContainer"]
 layout_mode = 2
-text = "A Course for Cats"
+text = "Memory Game"
 label_settings = SubResource("LabelSettings_pxdf2")
 horizontal_alignment = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="Container"]
-position = Vector2(284, 160)
+texture_filter = 1
+position = Vector2(256, 162)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("3_ptjl2")
 
 [node name="MenuContainer" type="VBoxContainer" parent="Container"]
 layout_mode = 2
@@ -96,10 +102,10 @@ alignment = 1
 [node name="ResumeBtn" type="TextureButton" parent="Container/MenuContainer"]
 visible = false
 layout_mode = 2
-texture_normal = ExtResource("2_ehgel")
-texture_hover = ExtResource("3_0crqe")
-texture_disabled = ExtResource("5_pxdf2")
-texture_focused = ExtResource("3_0crqe")
+texture_normal = ExtResource("3_5iivx")
+texture_hover = ExtResource("4_ptjl2")
+texture_disabled = ExtResource("5_fv87u")
+texture_focused = ExtResource("4_ptjl2")
 
 [node name="Label" type="Label" parent="Container/MenuContainer/ResumeBtn"]
 layout_mode = 1
@@ -108,16 +114,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 32
 text = "Resume Game"
 horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="NewBtn" type="TextureButton" parent="Container/MenuContainer"]
 layout_mode = 2
-texture_normal = ExtResource("2_ehgel")
-texture_hover = ExtResource("3_0crqe")
-texture_disabled = ExtResource("5_pxdf2")
-texture_focused = ExtResource("3_0crqe")
+texture_normal = ExtResource("3_5iivx")
+texture_hover = ExtResource("4_ptjl2")
+texture_disabled = ExtResource("5_fv87u")
+texture_focused = ExtResource("4_ptjl2")
 
 [node name="Label" type="Label" parent="Container/MenuContainer/NewBtn"]
 layout_mode = 1
@@ -126,18 +132,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 32
 text = "New Game"
 horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="ScoresBtn" type="TextureButton" parent="Container/MenuContainer"]
-visible = false
 layout_mode = 2
-disabled = true
-texture_normal = ExtResource("2_ehgel")
-texture_hover = ExtResource("3_0crqe")
-texture_disabled = ExtResource("5_pxdf2")
-texture_focused = ExtResource("3_0crqe")
+texture_normal = ExtResource("3_5iivx")
+texture_hover = ExtResource("4_ptjl2")
+texture_disabled = ExtResource("5_fv87u")
+texture_focused = ExtResource("4_ptjl2")
 
 [node name="Label" type="Label" parent="Container/MenuContainer/ScoresBtn"]
 layout_mode = 1
@@ -146,16 +150,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 32
 text = "High Scores"
 horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="SettingsBtn" type="TextureButton" parent="Container/MenuContainer"]
 layout_mode = 2
-texture_normal = ExtResource("2_ehgel")
-texture_hover = ExtResource("3_0crqe")
-texture_disabled = ExtResource("5_pxdf2")
-texture_focused = ExtResource("3_0crqe")
+texture_normal = ExtResource("3_5iivx")
+texture_hover = ExtResource("4_ptjl2")
+texture_disabled = ExtResource("5_fv87u")
+texture_focused = ExtResource("4_ptjl2")
 
 [node name="Label" type="Label" parent="Container/MenuContainer/SettingsBtn"]
 layout_mode = 1
@@ -164,16 +168,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 32
 text = "Settings"
 horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="ExitBtn" type="TextureButton" parent="Container/MenuContainer"]
 layout_mode = 2
-texture_normal = ExtResource("2_ehgel")
-texture_hover = ExtResource("3_0crqe")
-texture_disabled = ExtResource("5_pxdf2")
-texture_focused = ExtResource("3_0crqe")
+texture_normal = ExtResource("3_5iivx")
+texture_hover = ExtResource("4_ptjl2")
+texture_disabled = ExtResource("5_fv87u")
+texture_focused = ExtResource("4_ptjl2")
 
 [node name="Label" type="Label" parent="Container/MenuContainer/ExitBtn"]
 layout_mode = 1
@@ -182,9 +186,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 32
 text = "Exit"
 horizontal_alignment = 1
-vertical_alignment = 1
 
 [connection signal="gui_input" from="Container/MenuContainer/ResumeBtn" to="." method="_on_resume_btn_gui_input"]
 [connection signal="gui_input" from="Container/MenuContainer/NewBtn" to="." method="_on_new_btn_gui_input"]

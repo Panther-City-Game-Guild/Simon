@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cn6hp2qxmadmg"
-path="res://.godot/imported/Report-Paper-Pass.png-49f71076cf0a1c0d9d107dc3cb8961f3.ctex"
+uid="uid://bfavnxpoaoyg"
+path="res://.godot/imported/OLD-SimonHexagon.png-4bac89afd7184bbeb3b5ccdc9bb054ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Report-Paper-Pass.png"
-dest_files=["res://.godot/imported/Report-Paper-Pass.png-49f71076cf0a1c0d9d107dc3cb8961f3.ctex"]
+source_file="res://Assets/Images/OLD-SimonHexagon.png"
+dest_files=["res://.godot/imported/OLD-SimonHexagon.png-4bac89afd7184bbeb3b5ccdc9bb054ed.ctex"]
 
 [params]
 

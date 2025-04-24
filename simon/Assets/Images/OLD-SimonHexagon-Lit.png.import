@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://biop3okbuxodo"
-path="res://.godot/imported/Report-Paper-Fail.png-4bf979613aa9178e056dff8c90965038.ctex"
+uid="uid://dyyy8roa8i7x1"
+path="res://.godot/imported/OLD-SimonHexagon-Lit.png-7de5097e8f493899d45903f594d49e90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Report-Paper-Fail.png"
-dest_files=["res://.godot/imported/Report-Paper-Fail.png-4bf979613aa9178e056dff8c90965038.ctex"]
+source_file="res://Assets/Images/OLD-SimonHexagon-Lit.png"
+dest_files=["res://.godot/imported/OLD-SimonHexagon-Lit.png-7de5097e8f493899d45903f594d49e90.ctex"]
 
 [params]
 

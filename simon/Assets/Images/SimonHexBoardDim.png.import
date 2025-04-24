@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1mcqrsmd0hng"
-path="res://.godot/imported/Report-Paper-Deceased.png-0d2af5ada9a588b062e7ccc593dc1dc5.ctex"
+uid="uid://4rg75fj0voi0"
+path="res://.godot/imported/SimonHexBoardDim.png-bbd067b906c23208c670f7e72b2e8671.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Report-Paper-Deceased.png"
-dest_files=["res://.godot/imported/Report-Paper-Deceased.png-0d2af5ada9a588b062e7ccc593dc1dc5.ctex"]
+source_file="res://Assets/Images/SimonHexBoardDim.png"
+dest_files=["res://.godot/imported/SimonHexBoardDim.png-bbd067b906c23208c670f7e72b2e8671.ctex"]
 
 [params]
 

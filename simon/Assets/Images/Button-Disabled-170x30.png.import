@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkwyx2dd8qcja"
-path="res://.godot/imported/Simon-Menu-Button-Hover.png-fc456a68419851d6763068068b10ff29.ctex"
+uid="uid://ux46stthngey"
+path="res://.godot/imported/Button-Disabled-170x30.png-9ad995b5c11a0ad416c34c0ccf96fb82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Simon-Menu-Button-Hover.png"
-dest_files=["res://.godot/imported/Simon-Menu-Button-Hover.png-fc456a68419851d6763068068b10ff29.ctex"]
+source_file="res://Assets/Images/Button-Disabled-170x30.png"
+dest_files=["res://.godot/imported/Button-Disabled-170x30.png-9ad995b5c11a0ad416c34c0ccf96fb82.ctex"]
 
 [params]
 

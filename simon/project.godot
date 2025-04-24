@@ -11,11 +11,14 @@ config_version=5
 [application]
 
 config/name="Simon"
+config/description="Simon is built to emulate the classic hand-held color-pattern memory game by the same name."
 run/main_scene="uid://cky1uw2nrbma4"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="PCGG/Simon"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.0784314, 0.0784314, 0.0784314, 1)
+config/icon="uid://dawy4ecunj8ri"
+config/windows_native_icon="res://SimonHexBoardDim.ico"
 
 [display]
 

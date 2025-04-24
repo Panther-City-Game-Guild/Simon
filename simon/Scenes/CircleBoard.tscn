@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://dw5ptr1yjr5yr"]
 
-[ext_resource type="Script" path="res://Scripts/board.gd" id="1_gobkb"]
+[ext_resource type="Script" uid="uid://dmsljr82g63y5" path="res://Scripts/board.gd" id="1_gobkb"]
 [ext_resource type="Texture2D" uid="uid://c4smgu87vx00j" path="res://Assets/Images/SimonCircle.png" id="2_owfy7"]
-[ext_resource type="Script" path="res://Scripts/area.gd" id="4_rx7ny"]
-[ext_resource type="Theme" path="res://Assets/board_area_theme.tres" id="5_huw85"]
+[ext_resource type="Script" uid="uid://cva6no74swapm" path="res://Scripts/area.gd" id="4_rx7ny"]
+[ext_resource type="Theme" uid="uid://bcj8x1t4qdn5o" path="res://Assets/board_area_theme.tres" id="5_huw85"]
 
 [node name="CircleBoard" type="Node2D"]
 process_mode = 1
@@ -11,6 +11,7 @@ top_level = true
 script = ExtResource("1_gobkb")
 
 [node name="BoardSprite" type="Sprite2D" parent="."]
+texture_filter = 1
 texture = ExtResource("2_owfy7")
 
 [node name="Area_1" type="Area2D" parent="BoardSprite"]
@@ -27,6 +28,7 @@ color = Color(0, 0.4, 0, 1)
 polygon = PackedVector2Array(-48, 34, -46, 11, -39, -7, -28, -24, -11, -42, 6, -54, 28, -63, 51, -66, 51, 34)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_1"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -51,6 +53,7 @@ rotation = 1.5708
 script = ExtResource("4_rx7ny")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="BoardSprite/Area_2"]
+visible = false
 polygon = PackedVector2Array(53, -68, 53, 36, -51, 36, -50, 22, -46, 6, -43, -2, -36, -16, -27, -29, -12, -44, -2, -51, 15, -60, 23, -63, 39, -67)
 
 [node name="Polygon2D" type="Polygon2D" parent="BoardSprite/Area_2"]
@@ -58,6 +61,7 @@ color = Color(0.4, 0, 0, 1)
 polygon = PackedVector2Array(-48, 34, -46, 11, -39, -7, -28, -24, -11, -42, 6, -54, 28, -63, 51, -66, 51, 34)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_2"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -83,6 +87,7 @@ rotation = -1.5708
 script = ExtResource("4_rx7ny")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="BoardSprite/Area_3"]
+visible = false
 polygon = PackedVector2Array(53, -68, 53, 36, -51, 36, -50, 22, -46, 6, -43, -2, -36, -16, -27, -29, -12, -44, -2, -51, 15, -60, 23, -63, 39, -67)
 
 [node name="Polygon2D" type="Polygon2D" parent="BoardSprite/Area_3"]
@@ -90,6 +95,7 @@ color = Color(0.4, 0.4, 0, 1)
 polygon = PackedVector2Array(-48, 34, -46, 11, -39, -7, -28, -24, -11, -42, 6, -54, 28, -63, 51, -66, 51, 34)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_3"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -115,6 +121,7 @@ rotation = 3.14159
 script = ExtResource("4_rx7ny")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="BoardSprite/Area_4"]
+visible = false
 polygon = PackedVector2Array(53, -68, 53, 36, -51, 36, -50, 22, -46, 6, -43, -2, -36, -16, -27, -29, -12, -44, -2, -51, 15, -60, 23, -63, 39, -67)
 
 [node name="Polygon2D" type="Polygon2D" parent="BoardSprite/Area_4"]
@@ -122,6 +129,7 @@ color = Color(0.0784314, 0.160784, 0.4, 1)
 polygon = PackedVector2Array(-48, 34, -46, 11, -39, -7, -28, -24, -11, -42, 6, -54, 28, -63, 51, -66, 51, 34)
 
 [node name="Label" type="Label" parent="BoardSprite/Area_4"]
+texture_filter = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5

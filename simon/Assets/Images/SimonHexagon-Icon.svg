@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="SimonHexagon-Icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="137.17872"
+     inkscape:cy="321.73359"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect46"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,11.751406,0,1 @ F,0,0,1,0,13.302396,0,1 @ F,0,0,1,0,12.358334,0,1 @ F,0,0,1,0,13.428506,0,1 @ F,0,0,1,0,12.375141,0,1 @ F,0,0,1,0,12.858334,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     id="g51"
+     inkscape:label="Attempt3"
+     transform="matrix(0.24686092,0,0,0.24685774,4.2055173,4.1495357)"
+     style="display:inline">
+    <g
+       id="g49"
+       transform="matrix(0.99965609,0,0,-1.0054973,0.23613872,242.31198)"
+       inkscape:label="Area6"
+       style="display:inline">
+      <path
+         id="path47"
+         style="display:inline;fill:#663d00;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:transform-center-y="-28.867511"
+         d="M 179.9989,28.39555 230,115 130,114.999 Z"
+         sodipodi:nodetypes="cccc"
+         inkscape:transform-center-x="-25.000553"
+         inkscape:label="Fill" />
+    </g>
+    <g
+       id="g58"
+       transform="matrix(0.99965614,0,0,-1.0055467,0.19495751,242.64478)"
+       inkscape:label="Area5"
+       style="display:inline">
+      <path
+         id="path57"
+         style="display:inline;fill:#142966;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:transform-center-y="-14.433755"
+         d="M 70.000001,23.396 H 170 l -49.99999,86.6 z"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="Fill" />
+    </g>
+    <g
+       id="g61"
+       transform="matrix(0.99966052,0,0,-1.0054976,0.15352352,242.31201)"
+       inkscape:label="Area4"
+       style="display:inline">
+      <path
+         id="path60"
+         style="display:inline;fill:#520052;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:transform-center-y="-28.867511"
+         d="M 59.9989,28.39555 110,115 10,114.999 Z"
+         sodipodi:nodetypes="cccc"
+         inkscape:transform-center-x="-25.000553"
+         inkscape:label="Fill" />
+    </g>
+    <g
+       id="g63"
+       inkscape:label="Area3"
+       transform="matrix(0.99966291,0,0,1.0054975,0.23491112,-1.548779)"
+       style="display:inline">
+      <path
+         id="path62"
+         style="display:inline;fill:#006600;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:transform-center-y="-28.867511"
+         d="M 179.9989,28.39555 230,115 130,114.999 Z"
+         sodipodi:nodetypes="cccc"
+         inkscape:transform-center-x="-25.000553"
+         inkscape:label="Fill" />
+    </g>
+    <g
+       id="g65"
+       transform="matrix(0.99966056,0,0,1.0055469,0.19442711,-1.8815779)"
+       inkscape:label="Area2"
+       style="display:inline">
+      <path
+         id="path64"
+         style="display:inline;fill:#666600;fill-opacity:1;stroke:none;stroke-width:1.99696;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:transform-center-y="-14.389843"
+         d="M 70.000001,23.396 H 170 l -49.99999,86.33652 z"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="Fill" />
+    </g>
+    <g
+       id="g67"
+       inkscape:label="Area1"
+       transform="matrix(0.99966291,0,0,1.0054975,0.15338012,-1.548779)"
+       style="display:inline">
+      <path
+         id="path66"
+         style="display:inline;fill:#660000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:transform-center-y="-28.867511"
+         d="M 59.9989,28.39555 110,115 10,114.999 Z"
+         sodipodi:nodetypes="cccc"
+         inkscape:transform-center-x="-25.000553"
+         inkscape:label="Fill" />
+    </g>
+    <path
+       id="path40"
+       style="display:inline;fill:#909090;fill-opacity:1;stroke:#141410;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       inkscape:label="Solid-Background"
+       d="M 66.75931,6.6260079 A 20.190569,20.190569 0 0 0 49.20238,16.844479 L -3.4223576,109.48525 a 23.296125,23.296125 0 0 0 0.052334,23.10363 l 52.2249066,90.99005 a 21.342757,21.342757 0 0 0 18.511499,10.71913 H 172.66191 a 22.998929,22.998929 0 0 0 20.02918,-11.69531 l 51.23266,-90.77429 a 22.039573,22.039573 0 0 0 0.0481,-21.58071 L 192.36243,17.852081 A 21.910938,21.910938 0 0 0 173.23339,6.6260079 Z M 70.171471,21.656252 H 170.13733 L 120.1544,108.79605 Z M 60.131762,27.016864 110.11678,114.15876 H 10.150927 Z m 120.041088,0 49.98502,87.141896 H 130.19202 Z M 10.150927,126.76531 h 99.965853 l -49.985018,87.1419 z m 120.041093,0 h 99.96585 l -49.98502,87.1419 z m -10.03762,5.36271 49.98293,87.1398 H 70.171471 Z"
+       transform="matrix(0.99999996,0,0,0.9992996,-7.0324675e-4,0.00394103)" />
+  </g>
+</svg>

@@ -1,12 +1,6 @@
 extends Node
 
 ### TODO:
-# - Move most of the generic Game functionality to a generic Game controller node
-# - HexBoard.gd should only control its child nodes and signal back to Game controller
-# - GameHUD, HexBoard, and GameClock should be children of the Game controller
-# - This would allow for the possibility of other game board shapes for more dynamic gameplay
-
-### TODO:
 # - Experiment with disabling _input processing for the active_board while Simon is teaching the pattern
 # - This would allow for less extensive input coding and variable reliance, thus less RAM useage and processing
 
@@ -54,7 +48,8 @@ func _input(event: InputEvent) -> void:
 			_unpause_game()
 			return
 		
-		# If a Game is NOT running and the GameMenu is visible, go to GameSelection
+		# If a Game is NOT running and the GameMenu is visible, do something?
+		# TODO: Consider removing or repurposing this!
 		elif !Game.is_game_running && GameMenu.visible:
 			# TODO: Do something
 			return
